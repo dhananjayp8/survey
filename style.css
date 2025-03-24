@@ -112,3 +112,16 @@
     padding-right: 8px;
   }
 }
+@media screen and (max-width: 480px) {
+  .survey-content {
+    width: 100%;
+  }
+  .question-btn {
+    width: 100%;
+    gap: 3px;
+  }
+  .question-btn button {
+    width: 70px;
+    font-size: 12px;
+  }
+}
