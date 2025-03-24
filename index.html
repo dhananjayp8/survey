@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="survey-container">
+      <div class="inner-survey-container">
+        <div class="arrow arrow-left"><i class="fas fa-chevron-left"></i></div>
+        <!-- <div
+          class="heading-checkbox"
+          style="display: flex; align-items: center; gap: 8px"
+        >
+          <h3 style="margin: 0">Wellness Wave</h3>
+          <span><input type="checkbox" /></span>
+        </div> -->
+        <div class="heading-checkbox">
+          <h3>Wellness Wave</h3>
+          <span><input type="checkbox" /></span>
+        </div>
+        <div class="survey-content">
+          <div class="survey-slider">
+            <input type="range" id="numberSlider" min="1" max="9" value="1" />
+          </div>
+          <div class="sub-question">
+            <h2>1 of 3 questions answered</h2>
+          </div>
+          <div class="questions-list">
+            <h2>
+              1. We adhere to clear guidelines for each communication tool's
+              unique purpose.
+            </h2>
+            <div class="question-btn">
+              <button>
+                Strongly <br />
+                Disagree
+              </button>
+              <button>Disagree</button>
+              <button>Neutral</button>
+              <button>Agree</button>
+              <button>
+                Strongly <br />
+                Agree
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div class="pagination">
+          <span class="circle">&#9675;</span>
+          <span class="circle">&#9675;</span>
+          <span class="circle">&#9675;</span>
+        </div>
+        <div class="arrow arrow-right">
+          <i class="fas fa-chevron-right"></i>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
