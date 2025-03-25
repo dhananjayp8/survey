@@ -73,7 +73,7 @@
   margin-top: 1.2rem;
   gap: 10px;
 }
-.arrow {
+/* .arrow {
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
@@ -92,7 +92,29 @@
 .arrow-right {
   right: 0;
   padding-right: 12px;
+} */
+.arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 30px; /* Adjust arrow size */
+  height: 30px;
+  cursor: pointer;
+  transition: opacity 0.3s;
 }
+
+.arrow-left {
+  left: 10px; /* Adjust positioning */
+  background: url("/images/back.png") no-repeat center center;
+  background-size: contain;
+}
+
+.arrow-right {
+  right: 10px; /* Adjust positioning */
+  background: url("/images/next.png") no-repeat center center;
+  background-size: contain;
+}
+
 @media screen and (max-width: 768px) {
   .survey-content {
     width: 90%;
